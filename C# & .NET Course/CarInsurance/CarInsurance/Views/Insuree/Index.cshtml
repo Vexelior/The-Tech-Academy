@@ -1,0 +1,93 @@
+﻿@model IEnumerable<CarInsurance.Models.Table>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmailAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CarYear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CarMake)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CarModel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DUI)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SpeedingTickets)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CoverageType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quote)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmailAddress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateOfBirth)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CarYear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CarMake)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CarModel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DUI)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SpeedingTickets)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CoverageType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quote)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

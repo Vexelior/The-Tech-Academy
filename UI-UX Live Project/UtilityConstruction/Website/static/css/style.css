@@ -1,0 +1,10 @@
+/*GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+:root {
+    --main-color-dark: #015668;
+    --main-color-light: #FFD369;
+    --secondary-color-dark: #263F44;
+    --secondary-color-light: #FFF1CF;
+}

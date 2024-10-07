@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Academy Cinemas</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- ROOT CONTAINER -->
+  <div class="container">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+      <a class="navbar-brand text-light" href="#">Academy Cinemas</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#ABOUT">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#SHOWTIMES">Showtimes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#DEALS">Deals</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-primary my-2 my-sm-0 text-light" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- JUMBOTRON -->
+    <div class="jumbotron jumbotron-fluid bg-info text-center">
+      <div class="container">
+        <h1 class="display-4 text-light">Academy Cinemas</h1>
+        <p class="lead text-light">Sit back, relax, and enjoy the show...</p>
+      </div>
+    </div>
+    <!-- LIST GROUP -->
+    <div class="container" id="ABOUT">
+      <div class="row">
+        <div class="col align-self-start">
+          <img class="img-fluid" src="./img/pdx.jpg">
+        </div>
+        <div class="col align-self-start">
+
+          <h3>Accommodations:</h3>
+          <p>Located in beautiful Portland, Oregon's Pearl district, our reels have been spinning since 1959.</p>
+          <p>Showing our guests a great time is our passion and seeing thier smiles is our pleasure!</p>
+          <p>All of our auditoriums are equipped with brand new Christie 3D&reg; sound systems!</p>
+          <p>Relax in our, extra-wide, plush cushioning recliners. Our seating arrangement is disability friendly
+            &#9855;.</p>
+        </div>
+        <div class="col align-self-start">
+          <h3>Now Playing:</h3>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <a class="nav-link" href="#">Kong: Skull Island</a>
+            </li>
+            <li class="list-group-item">
+              <a class="nav-link" href="#">Ghost in the Shell</a>
+            </li>
+            <li class="list-group-item">
+              <a class="nav-link" href="#">Beauty and the Beast</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Showtimes -->
+    <div class="card-deck my-5" id="SHOWTIMES">
+
+      <div class="card" style="width: 18rem;">
+        <img src="./img/kongskullisland.jpg" class="card-img-top" alt="No Image Available.">
+        <div class="card-body">
+          <h5 class="card-title">Kong: Skull Island</h5>
+          <p class="card-text">
+            A team of scientists explore an uncharted island in the Pacific, venturing into the domain of the mighty
+            Kong, and must fight to escape a pirmal Eden.
+          </p>
+          <br>
+
+          <span class="badge badge-pill badge-info">12:00pm</span>
+          <span class="badge badge-pill badge-info">1:30pm</span>
+          <span class="badge badge-pill badge-info">3:00pm</span>
+          <span class="badge badge-pill badge-info">5:30pm</span>
+          <span class="badge badge-pill badge-info">7:00pm</span>
+          <span class="badge badge-pill badge-info">9:30pm</span>
+        </div>
+        <!-- <div class="card-footer">
+              <small class="text-muted">Last updated 7 minutes ago</small>
+            </div> -->
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./img/ghostintheshell.jpg" class="card-img-top" alt="No Image Available.">
+        <div class="card-body">
+          <h5 class="card-title">Ghost in the Shell</h5>
+          <p class="card-text">
+            In the near future, Major Mila Killian is the first of her kind: a human saved from a terrible crash, who is
+            cyber enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals
+          </p>
+
+          <span class="badge badge-pill badge-info">12:00pm</span>
+          <span class="badge badge-pill badge-info">1:30pm</span>
+          <span class="badge badge-pill badge-info">3:00pm</span>
+          <span class="badge badge-pill badge-info">5:30pm</span>
+          <span class="badge badge-pill badge-info">7:00pm</span>
+          <span class="badge badge-pill badge-info">9:30pm</span>
+        </div>
+        <!-- <div class="card-footer">
+              <small class="text-muted">Last updated 3 minutes ago</small>
+            </div> -->
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./img/beautyandthebeast.jpg" class="card-img-top" alt="No Image Available.">
+        <div class="card-body">
+          <h5 class="card-title">Beauty and the Beast</h5>
+          <p class="card-text">
+            A selfish prince is cursed to become a monster for the rest of his life, unless he learns to fall in love
+            with a women he keeps as a prisoner.
+          </p>
+          <br>
+          <span class="badge badge-pill badge-info">12:00pm</span>
+          <span class="badge badge-pill badge-info">1:30pm</span>
+          <span class="badge badge-pill badge-info">3:00pm</span>
+          <span class="badge badge-pill badge-info">5:30pm</span>
+          <span class="badge badge-pill badge-info">7:00pm</span>
+          <span class="badge badge-pill badge-info">9:30pm</span>
+        </div>
+        <!-- <div class="card-footer">
+              <small class="text-muted">Last updated 9 minutes ago</small>
+            </div> -->
+      </div>
+
+    </div>
+    <!-- /Showtimes -->
+
+    <!-- MODAL -->
+    <!-- Button trigger modal -->
+    <div class="container" style="text-align: center;">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Create Account
+      </button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Create Account</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Consent Check</label>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /MODAL -->
+
+    <!-- FORM -->
+    <div class="text-center" id="DEALS">
+      <form>
+        <h1 class="text-primary my-5">Sign up for Movie Club Rewards!</h1>
+        <div class="mb-3">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Enter email">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <div class="container my-5">
+      <ul class="nav nav-inline">
+        <li class="nav-item">
+          <small><a class="nav-link active" href="#">Movie Rewards</a></small>
+        </li>
+        <li class="nav-item">
+          <small><a class="nav-link active" href="#">Movies@news.org</a></small>
+        </li>
+        <li class="nav-item">
+          <small><a class="nav-link active" href="#">Info@academycinemas.com</a></small>
+        </li>
+        <li class="nav-item">
+          <small class="nav-link">&copy;2019 Academy Cinemas&reg;</small>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

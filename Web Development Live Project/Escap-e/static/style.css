@@ -1,0 +1,194 @@
+/*GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --main-color: #1E1E1E;
+    --accent-red: #FF0000;
+}
+
+body {
+    background-color: var(--main-color);
+    background-image: url("../images/calming-mountians.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: var(--main-color)
+}
+
+.logo {
+    width: 250px;
+}
+
+.logo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 300px;
+}
+
+.search-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search-container nav {
+    box-shadow: 0 0 10px black;
+    border-radius: 40px;
+    background-color: #fff;
+    padding: 10px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.search-container #navbarNav {
+    justify-content: center;
+    font-size: 32px;
+}
+
+.search-container #navbarNav a {
+    margin: 0 40px;
+    color: var(--main-color);
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: bolder;
+}
+
+.search-container #navbarNav a:hover {
+    color: var(--accent-red);
+}
+
+.search-container h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bolder
+}
+
+.search-container h1 span {
+    color: var(--accent-red);
+}
+
+.mobile-search-container {
+    /* center the search bar on the page */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.mobile-search-container h1 {
+    font-size: calc(48px + 2vw);
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bolder
+}
+
+.mobile-search-container h1 span {
+    color: var(--accent-red);
+}
+
+.mobile-search-container .dropdown {
+    box-shadow: 0 0 10px black;
+    border-radius: 40px;
+    background-color: #fff;
+    padding: 10px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.75);
+    text-align: center;
+}
+
+.mobile-search-container button {
+    background: rgba(255, 255, 255, 0.75);
+    border: none;
+    border-radius: 40px;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: var(--main-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+.mobile-search-container button span {
+    padding: 20px;
+}
+
+.mobile-search-container button:hover {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.mobile-search-container .dropdown-toggle::after {
+    border-top-color: var(--accent-red);
+    border-width: 0.5em 0.5em 0 0.5em;
+}
+
+.mobile-search-container .dropdown-menu {
+    background-color: var(--main-color);
+    padding: 10px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.75);
+    text-align: center;
+}
+
+.mobile-search-container .dropdown-menu a {
+    color: var(--main-color);
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.mobile-search-container .dropdown-menu a:hover {
+    color: var(--accent-red);
+}
+
+.show-on-mobile {
+    display: none;
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 1000px) {
+    .logo-container {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 250px;
+        justify-content: center;
+        align-items: center;
+        top: 15%;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .show-on-mobile {
+        display: block;
+    }
+
+    .search-container {
+        display: none;
+    }
+}

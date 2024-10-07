@@ -1,0 +1,32 @@
+﻿@using CarInsurance.ViewModels
+@model List<InsuranceVM>
+
+@{ 
+    ViewBag.Title = "Admin";
+}
+
+<div class="container text-center" style="margin-top: 20px;">
+    <table class="table table-condensed table-bordered">
+        <thead class="text-center">
+            <tr>
+                <th class="text-center">First Name</th>
+                <th class="text-center">Last Name</th>
+                <th class="text-center">Email Address</th>
+                <th class="text-center">Quote</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (InsuranceVM customer in Model)
+            {
+                <tr>
+                    <td>@customer.FirstName</td>
+                    <td>@customer.LastName</td>
+                    <td>@customer.EmailAddress</td>
+                    <td>@customer.Quote</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+                

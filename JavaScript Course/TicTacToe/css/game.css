@@ -1,0 +1,28 @@
+.center-container {
+  width: 608px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+td {
+  cursor: pointer;
+  border: 4px solid rgba(0, 0, 0, 0.8);
+  padding: 0px;
+  width: 200px;
+  height: 200px;
+}
+
+canvas {
+  position: absolute;
+  z-index: 10;
+  pointer-events: none;
+}
+
+h1 {
+  text-align: center;
+}

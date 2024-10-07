@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16.14.0/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    
+    <body>
+        <div id="JSX"></div>
+        <script type="text/babel">
+        class Greeting extends React.Component {
+            render() {
+                return <h1>Hello, World!</h1>
+            }
+        }
+
+        ReactDOM.render(<Greeting />, document.getElementById('JSX'))
+        </script>
+
+    </body>
+
+</html>

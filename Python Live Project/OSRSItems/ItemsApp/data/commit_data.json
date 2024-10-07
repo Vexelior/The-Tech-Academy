@@ -1,0 +1,2287 @@
+[
+    {
+        "sha": "2896c2660950bebed2b624345f2b0405624ff9e4",
+        "node_id": "C_kwDOJDSl2doAKDI4OTZjMjY2MDk1MGJlYmVkMmI2MjQzNDVmMmIwNDA1NjI0ZmY5ZTQ",
+        "commit": {
+            "author": {
+                "name": "Vexelior",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-22T01:26:51Z"
+            },
+            "committer": {
+                "name": "Vexelior",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-22T01:26:51Z"
+            },
+            "message": "add user auth for deleting items",
+            "tree": {
+                "sha": "39cf00f9e6bfe8221a74c80569df1cb82ed41a32",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/39cf00f9e6bfe8221a74c80569df1cb82ed41a32"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/2896c2660950bebed2b624345f2b0405624ff9e4",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/2896c2660950bebed2b624345f2b0405624ff9e4",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/2896c2660950bebed2b624345f2b0405624ff9e4",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/2896c2660950bebed2b624345f2b0405624ff9e4/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "8ce0afe7589a7c4393efc58e5b64f181443d3e8e",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/8ce0afe7589a7c4393efc58e5b64f181443d3e8e",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/8ce0afe7589a7c4393efc58e5b64f181443d3e8e"
+            }
+        ]
+    },
+    {
+        "sha": "8ce0afe7589a7c4393efc58e5b64f181443d3e8e",
+        "node_id": "C_kwDOJDSl2doAKDhjZTBhZmU3NTg5YTdjNDM5M2VmYzU4ZTViNjRmMTgxNDQzZDNlOGU",
+        "commit": {
+            "author": {
+                "name": "Vexelior",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-21T23:19:01Z"
+            },
+            "committer": {
+                "name": "Vexelior",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-21T23:19:01Z"
+            },
+            "message": "Revert \"add vercel deployment\"\n\nThis reverts commit 06f6ff08f4a2773f28612939d17d267a31dd597c.",
+            "tree": {
+                "sha": "2a8d45283a386b0154a51276f1ee11bb347910b1",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/2a8d45283a386b0154a51276f1ee11bb347910b1"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/8ce0afe7589a7c4393efc58e5b64f181443d3e8e",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/8ce0afe7589a7c4393efc58e5b64f181443d3e8e",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/8ce0afe7589a7c4393efc58e5b64f181443d3e8e",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/8ce0afe7589a7c4393efc58e5b64f181443d3e8e/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "06f6ff08f4a2773f28612939d17d267a31dd597c",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/06f6ff08f4a2773f28612939d17d267a31dd597c",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/06f6ff08f4a2773f28612939d17d267a31dd597c"
+            }
+        ]
+    },
+    {
+        "sha": "06f6ff08f4a2773f28612939d17d267a31dd597c",
+        "node_id": "C_kwDOJDSl2doAKDA2ZjZmZjA4ZjRhMjc3M2YyODYxMjkzOWQxN2QyNjdhMzFkZDU5N2M",
+        "commit": {
+            "author": {
+                "name": "Vexelior",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-21T23:13:05Z"
+            },
+            "committer": {
+                "name": "Vexelior",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-21T23:13:05Z"
+            },
+            "message": "add vercel deployment",
+            "tree": {
+                "sha": "7a77b0652e155e71d0338775d46ed5b132e28647",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/7a77b0652e155e71d0338775d46ed5b132e28647"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/06f6ff08f4a2773f28612939d17d267a31dd597c",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/06f6ff08f4a2773f28612939d17d267a31dd597c",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/06f6ff08f4a2773f28612939d17d267a31dd597c",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/06f6ff08f4a2773f28612939d17d267a31dd597c/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "c82e00aad88efeb98e0f2efd655d138cdb0827f9",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/c82e00aad88efeb98e0f2efd655d138cdb0827f9",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/c82e00aad88efeb98e0f2efd655d138cdb0827f9"
+            }
+        ]
+    },
+    {
+        "sha": "c82e00aad88efeb98e0f2efd655d138cdb0827f9",
+        "node_id": "C_kwDOJDSl2doAKGM4MmUwMGFhZDg4ZWZlYjk4ZTBmMmVmZDY1NWQxMzhjZGIwODI3Zjk",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-20T19:58:13Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-20T19:58:13Z"
+            },
+            "message": "rename templates. update ignore",
+            "tree": {
+                "sha": "2a8d45283a386b0154a51276f1ee11bb347910b1",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/2a8d45283a386b0154a51276f1ee11bb347910b1"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/c82e00aad88efeb98e0f2efd655d138cdb0827f9",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/c82e00aad88efeb98e0f2efd655d138cdb0827f9",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/c82e00aad88efeb98e0f2efd655d138cdb0827f9",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/c82e00aad88efeb98e0f2efd655d138cdb0827f9/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "b033e89c2f4c9568e92b94ca071885d274128460",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/b033e89c2f4c9568e92b94ca071885d274128460",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/b033e89c2f4c9568e92b94ca071885d274128460"
+            }
+        ]
+    },
+    {
+        "sha": "b033e89c2f4c9568e92b94ca071885d274128460",
+        "node_id": "C_kwDOJDSl2doAKGIwMzNlODljMmY0Yzk1NjhlOTJiOTRjYTA3MTg4NWQyNzQxMjg0NjA",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-20T19:46:05Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-20T19:46:05Z"
+            },
+            "message": "remove cors-headers\n\nNo longer needed.",
+            "tree": {
+                "sha": "a1332ba181ac8e9836a04406e8b7e3588d460183",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/a1332ba181ac8e9836a04406e8b7e3588d460183"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/b033e89c2f4c9568e92b94ca071885d274128460",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/b033e89c2f4c9568e92b94ca071885d274128460",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/b033e89c2f4c9568e92b94ca071885d274128460",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/b033e89c2f4c9568e92b94ca071885d274128460/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "c2c72d1f860fe6b385cce2355c79e494cacb8550",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/c2c72d1f860fe6b385cce2355c79e494cacb8550",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/c2c72d1f860fe6b385cce2355c79e494cacb8550"
+            }
+        ]
+    },
+    {
+        "sha": "c2c72d1f860fe6b385cce2355c79e494cacb8550",
+        "node_id": "C_kwDOJDSl2doAKGMyYzcyZDFmODYwZmU2YjM4NWNjZTIzNTVjNzllNDk0Y2FjYjg1NTA",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-20T18:43:10Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-20T18:43:10Z"
+            },
+            "message": "fa arrows and cleanup",
+            "tree": {
+                "sha": "f5ef51ff0915efc00a034ed3729d15b32e130704",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/f5ef51ff0915efc00a034ed3729d15b32e130704"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/c2c72d1f860fe6b385cce2355c79e494cacb8550",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/c2c72d1f860fe6b385cce2355c79e494cacb8550",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/c2c72d1f860fe6b385cce2355c79e494cacb8550",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/c2c72d1f860fe6b385cce2355c79e494cacb8550/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ad3f0025561271c619ab9e1f0baa6b3f78fa1e8c",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/ad3f0025561271c619ab9e1f0baa6b3f78fa1e8c",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/ad3f0025561271c619ab9e1f0baa6b3f78fa1e8c"
+            }
+        ]
+    },
+    {
+        "sha": "ad3f0025561271c619ab9e1f0baa6b3f78fa1e8c",
+        "node_id": "C_kwDOJDSl2doAKGFkM2YwMDI1NTYxMjcxYzYxOWFiOWUxZjBiYWE2YjNmNzhmYTFlOGM",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-20T18:30:31Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-20T18:30:31Z"
+            },
+            "message": "move data folder, alter links",
+            "tree": {
+                "sha": "b0c71f250c4859fc8e943640865af576d95e85a5",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/b0c71f250c4859fc8e943640865af576d95e85a5"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/ad3f0025561271c619ab9e1f0baa6b3f78fa1e8c",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/ad3f0025561271c619ab9e1f0baa6b3f78fa1e8c",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/ad3f0025561271c619ab9e1f0baa6b3f78fa1e8c",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/ad3f0025561271c619ab9e1f0baa6b3f78fa1e8c/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "9bb82c0582c5d7f8829bee95f8044b31a8ee92a0",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/9bb82c0582c5d7f8829bee95f8044b31a8ee92a0",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/9bb82c0582c5d7f8829bee95f8044b31a8ee92a0"
+            }
+        ]
+    },
+    {
+        "sha": "9bb82c0582c5d7f8829bee95f8044b31a8ee92a0",
+        "node_id": "C_kwDOJDSl2doAKDliYjgyYzA1ODJjNWQ3Zjg4MjliZWU5NWY4MDQ0YjMxYThlZTkyYTA",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-20T18:24:33Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-20T18:24:33Z"
+            },
+            "message": "home and base styling",
+            "tree": {
+                "sha": "c870bb6d4c551685dfecbc1c9c4a266e03570e1e",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/c870bb6d4c551685dfecbc1c9c4a266e03570e1e"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/9bb82c0582c5d7f8829bee95f8044b31a8ee92a0",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/9bb82c0582c5d7f8829bee95f8044b31a8ee92a0",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/9bb82c0582c5d7f8829bee95f8044b31a8ee92a0",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/9bb82c0582c5d7f8829bee95f8044b31a8ee92a0/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "796c98d3536e0a55f6135dd28eaf0a30f2528508",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/796c98d3536e0a55f6135dd28eaf0a30f2528508",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/796c98d3536e0a55f6135dd28eaf0a30f2528508"
+            }
+        ]
+    },
+    {
+        "sha": "796c98d3536e0a55f6135dd28eaf0a30f2528508",
+        "node_id": "C_kwDOJDSl2doAKDc5NmM5OGQzNTM2ZTBhNTVmNjEzNWRkMjhlYWYwYTMwZjI1Mjg1MDg",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-20T18:11:29Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-20T18:11:29Z"
+            },
+            "message": "add icons to scraped account data",
+            "tree": {
+                "sha": "f47b5996db9174658ec07d8128ad447382ad33dd",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/f47b5996db9174658ec07d8128ad447382ad33dd"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/796c98d3536e0a55f6135dd28eaf0a30f2528508",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/796c98d3536e0a55f6135dd28eaf0a30f2528508",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/796c98d3536e0a55f6135dd28eaf0a30f2528508",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/796c98d3536e0a55f6135dd28eaf0a30f2528508/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "507a038000a680a7c2f47c8c0b2c7c88c66f0f4a",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/507a038000a680a7c2f47c8c0b2c7c88c66f0f4a",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/507a038000a680a7c2f47c8c0b2c7c88c66f0f4a"
+            }
+        ]
+    },
+    {
+        "sha": "507a038000a680a7c2f47c8c0b2c7c88c66f0f4a",
+        "node_id": "C_kwDOJDSl2doAKDUwN2EwMzgwMDBhNjgwYTdjMmY0N2M4YzBiMmM3Yzg4YzY2ZjBmNGE",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-20T17:41:44Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-20T17:41:44Z"
+            },
+            "message": "added development table to home page",
+            "tree": {
+                "sha": "cc2e2d39c799ea1d458681552be461ee1841d3c1",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/cc2e2d39c799ea1d458681552be461ee1841d3c1"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/507a038000a680a7c2f47c8c0b2c7c88c66f0f4a",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/507a038000a680a7c2f47c8c0b2c7c88c66f0f4a",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/507a038000a680a7c2f47c8c0b2c7c88c66f0f4a",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/507a038000a680a7c2f47c8c0b2c7c88c66f0f4a/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "1de24c7824cc48ac70928ed1c3555409d82ba22f",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/1de24c7824cc48ac70928ed1c3555409d82ba22f",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/1de24c7824cc48ac70928ed1c3555409d82ba22f"
+            }
+        ]
+    },
+    {
+        "sha": "1de24c7824cc48ac70928ed1c3555409d82ba22f",
+        "node_id": "C_kwDOJDSl2doAKDFkZTI0Yzc4MjRjYzQ4YWM3MDkyOGVkMWMzNTU1NDA5ZDgyYmEyMmY",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-20T02:07:47Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-20T02:07:47Z"
+            },
+            "message": "revised reqs, add favorite to pages,  add font, remove api page",
+            "tree": {
+                "sha": "cb850a5281b63f491ef37495bc8b516799e24ffa",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/cb850a5281b63f491ef37495bc8b516799e24ffa"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/1de24c7824cc48ac70928ed1c3555409d82ba22f",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/1de24c7824cc48ac70928ed1c3555409d82ba22f",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/1de24c7824cc48ac70928ed1c3555409d82ba22f",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/1de24c7824cc48ac70928ed1c3555409d82ba22f/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "f2471362240207dac757c90eba9316cda6c3a0a8",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/f2471362240207dac757c90eba9316cda6c3a0a8",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/f2471362240207dac757c90eba9316cda6c3a0a8"
+            }
+        ]
+    },
+    {
+        "sha": "f2471362240207dac757c90eba9316cda6c3a0a8",
+        "node_id": "C_kwDOJDSl2doAKGYyNDcxMzYyMjQwMjA3ZGFjNzU3YzkwZWJhOTMxNmNkYTZjM2EwYTg",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-19T23:27:14Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-07-19T23:27:14Z"
+            },
+            "message": "add search, reset db,  and styling",
+            "tree": {
+                "sha": "95bac1ec409506fa5062d08c61d5c7d3839cabb6",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/95bac1ec409506fa5062d08c61d5c7d3839cabb6"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/f2471362240207dac757c90eba9316cda6c3a0a8",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/f2471362240207dac757c90eba9316cda6c3a0a8",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/f2471362240207dac757c90eba9316cda6c3a0a8",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/f2471362240207dac757c90eba9316cda6c3a0a8/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "503956888888b66c31e42d24dd94e10a671f23b5",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/503956888888b66c31e42d24dd94e10a671f23b5",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/503956888888b66c31e42d24dd94e10a671f23b5"
+            }
+        ]
+    },
+    {
+        "sha": "503956888888b66c31e42d24dd94e10a671f23b5",
+        "node_id": "C_kwDOJDSl2doAKDUwMzk1Njg4ODg4OGI2NmMzMWU0MmQyNGRkOTRlMTBhNjcxZjIzYjU",
+        "commit": {
+            "author": {
+                "name": "Vexelior",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-06-06T19:48:13Z"
+            },
+            "committer": {
+                "name": "Vexelior",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-06-06T19:48:13Z"
+            },
+            "message": "cleanup",
+            "tree": {
+                "sha": "80b236454d026aa78fa529228efbcc0244d42261",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/80b236454d026aa78fa529228efbcc0244d42261"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/503956888888b66c31e42d24dd94e10a671f23b5",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/503956888888b66c31e42d24dd94e10a671f23b5",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/503956888888b66c31e42d24dd94e10a671f23b5",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/503956888888b66c31e42d24dd94e10a671f23b5/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "b47dd6775aac3cc9493eb5d84dae177d26e008a8",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/b47dd6775aac3cc9493eb5d84dae177d26e008a8",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/b47dd6775aac3cc9493eb5d84dae177d26e008a8"
+            }
+        ]
+    },
+    {
+        "sha": "b47dd6775aac3cc9493eb5d84dae177d26e008a8",
+        "node_id": "C_kwDOJDSl2doAKGI0N2RkNjc3NWFhYzNjYzk0OTNlYjVkODRkYWUxNzdkMjZlMDA4YTg",
+        "commit": {
+            "author": {
+                "name": "Vexelior",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-05-10T19:29:57Z"
+            },
+            "committer": {
+                "name": "Vexelior",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-05-10T19:29:57Z"
+            },
+            "message": "updates",
+            "tree": {
+                "sha": "99ee7877551673edf8e5a4469145b69eaac18c7f",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/99ee7877551673edf8e5a4469145b69eaac18c7f"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/b47dd6775aac3cc9493eb5d84dae177d26e008a8",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/b47dd6775aac3cc9493eb5d84dae177d26e008a8",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/b47dd6775aac3cc9493eb5d84dae177d26e008a8",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/b47dd6775aac3cc9493eb5d84dae177d26e008a8/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ad0f46b17cba93479ee73959b55bb8841235c54f",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/ad0f46b17cba93479ee73959b55bb8841235c54f",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/ad0f46b17cba93479ee73959b55bb8841235c54f"
+            }
+        ]
+    },
+    {
+        "sha": "ad0f46b17cba93479ee73959b55bb8841235c54f",
+        "node_id": "C_kwDOJDSl2doAKGFkMGY0NmIxN2NiYTkzNDc5ZWU3Mzk1OWI1NWJiODg0MTIzNWM1NGY",
+        "commit": {
+            "author": {
+                "name": "Vexelior",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-04-05T00:56:51Z"
+            },
+            "committer": {
+                "name": "Vexelior",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-04-05T00:56:51Z"
+            },
+            "message": "code cleanup, smaller functions",
+            "tree": {
+                "sha": "9fcb4d7991cdd54305ffa104e20bf903ab70073a",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/9fcb4d7991cdd54305ffa104e20bf903ab70073a"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/ad0f46b17cba93479ee73959b55bb8841235c54f",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/ad0f46b17cba93479ee73959b55bb8841235c54f",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/ad0f46b17cba93479ee73959b55bb8841235c54f",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/ad0f46b17cba93479ee73959b55bb8841235c54f/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "201beb81e65515b81f80b7532ddce1c2b8c91baa",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/201beb81e65515b81f80b7532ddce1c2b8c91baa",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/201beb81e65515b81f80b7532ddce1c2b8c91baa"
+            }
+        ]
+    },
+    {
+        "sha": "201beb81e65515b81f80b7532ddce1c2b8c91baa",
+        "node_id": "C_kwDOJDSl2doAKDIwMWJlYjgxZTY1NTE1YjgxZjgwYjc1MzJkZGNlMWMyYjhjOTFiYWE",
+        "commit": {
+            "author": {
+                "name": "Vexelior",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-04-05T00:48:20Z"
+            },
+            "committer": {
+                "name": "Vexelior",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-04-05T00:48:20Z"
+            },
+            "message": "added pagination",
+            "tree": {
+                "sha": "3fe423ebfa9eea8020fe458ae36374a894c1ece4",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/3fe423ebfa9eea8020fe458ae36374a894c1ece4"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/201beb81e65515b81f80b7532ddce1c2b8c91baa",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/201beb81e65515b81f80b7532ddce1c2b8c91baa",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/201beb81e65515b81f80b7532ddce1c2b8c91baa",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/201beb81e65515b81f80b7532ddce1c2b8c91baa/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "7e3c5b3fffeb67aaa7f6356e2c07e179c7381cb0",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/7e3c5b3fffeb67aaa7f6356e2c07e179c7381cb0",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/7e3c5b3fffeb67aaa7f6356e2c07e179c7381cb0"
+            }
+        ]
+    },
+    {
+        "sha": "7e3c5b3fffeb67aaa7f6356e2c07e179c7381cb0",
+        "node_id": "C_kwDOJDSl2doAKDdlM2M1YjNmZmZlYjY3YWFhN2Y2MzU2ZTJjMDdlMTc5YzczODFjYjA",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-04-04T00:19:42Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-04-04T00:19:42Z"
+            },
+            "message": "Update messages.html",
+            "tree": {
+                "sha": "d5ce8a25a2ca46237adaaba5640773c6765ed2b3",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/d5ce8a25a2ca46237adaaba5640773c6765ed2b3"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/7e3c5b3fffeb67aaa7f6356e2c07e179c7381cb0",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/7e3c5b3fffeb67aaa7f6356e2c07e179c7381cb0",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/7e3c5b3fffeb67aaa7f6356e2c07e179c7381cb0",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/7e3c5b3fffeb67aaa7f6356e2c07e179c7381cb0/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "7762eae92b584d5371e5a86936f2863ea1059d10",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/7762eae92b584d5371e5a86936f2863ea1059d10",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/7762eae92b584d5371e5a86936f2863ea1059d10"
+            }
+        ]
+    },
+    {
+        "sha": "7762eae92b584d5371e5a86936f2863ea1059d10",
+        "node_id": "C_kwDOJDSl2doAKDc3NjJlYWU5MmI1ODRkNTM3MWU1YTg2OTM2ZjI4NjNlYTEwNTlkMTA",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-03-07T00:59:09Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-03-07T00:59:09Z"
+            },
+            "message": "formatting docs, add fa icon to delete details page",
+            "tree": {
+                "sha": "58bababd5a8c1a404693cd1c80219154041a7008",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/58bababd5a8c1a404693cd1c80219154041a7008"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/7762eae92b584d5371e5a86936f2863ea1059d10",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/7762eae92b584d5371e5a86936f2863ea1059d10",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/7762eae92b584d5371e5a86936f2863ea1059d10",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/7762eae92b584d5371e5a86936f2863ea1059d10/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "41d40cad47461c06766e4a0f189701e644ff3fed",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/41d40cad47461c06766e4a0f189701e644ff3fed",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/41d40cad47461c06766e4a0f189701e644ff3fed"
+            }
+        ]
+    },
+    {
+        "sha": "41d40cad47461c06766e4a0f189701e644ff3fed",
+        "node_id": "C_kwDOJDSl2doAKDQxZDQwY2FkNDc0NjFjMDY3NjZlNGEwZjE4OTcwMWU2NDRmZjNmZWQ",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-03-04T02:17:47Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-03-04T02:17:47Z"
+            },
+            "message": "Update scrape.html",
+            "tree": {
+                "sha": "41f35c2a21c8e946bd2de16801841ba2f16e94dc",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/41f35c2a21c8e946bd2de16801841ba2f16e94dc"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/41d40cad47461c06766e4a0f189701e644ff3fed",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/41d40cad47461c06766e4a0f189701e644ff3fed",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/41d40cad47461c06766e4a0f189701e644ff3fed",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/41d40cad47461c06766e4a0f189701e644ff3fed/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ae0be674deabd44e45d81f832d31ee138f1789e6",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/ae0be674deabd44e45d81f832d31ee138f1789e6",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/ae0be674deabd44e45d81f832d31ee138f1789e6"
+            }
+        ]
+    },
+    {
+        "sha": "ae0be674deabd44e45d81f832d31ee138f1789e6",
+        "node_id": "C_kwDOJDSl2doAKGFlMGJlNjc0ZGVhYmQ0NGU0NWQ4MWY4MzJkMzFlZTEzOGYxNzg5ZTY",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-03-04T00:27:16Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-03-04T00:27:16Z"
+            },
+            "message": "table row js added filtering",
+            "tree": {
+                "sha": "3098acc1394ab44076c23054c4aad2f20ad475b7",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/3098acc1394ab44076c23054c4aad2f20ad475b7"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/ae0be674deabd44e45d81f832d31ee138f1789e6",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/ae0be674deabd44e45d81f832d31ee138f1789e6",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/ae0be674deabd44e45d81f832d31ee138f1789e6",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/ae0be674deabd44e45d81f832d31ee138f1789e6/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "beab2163dfa06e217a50ca864d72ac9899f97cae",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/beab2163dfa06e217a50ca864d72ac9899f97cae",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/beab2163dfa06e217a50ca864d72ac9899f97cae"
+            }
+        ]
+    },
+    {
+        "sha": "beab2163dfa06e217a50ca864d72ac9899f97cae",
+        "node_id": "C_kwDOJDSl2doAKGJlYWIyMTYzZGZhMDZlMjE3YTUwY2E4NjRkNzJhYzk4OTlmOTdjYWU",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-03-03T21:07:48Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-03-03T21:07:48Z"
+            },
+            "message": "Update views.py",
+            "tree": {
+                "sha": "975835f8d89d097b3bcac94ba4d669fe19f862c9",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/975835f8d89d097b3bcac94ba4d669fe19f862c9"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/beab2163dfa06e217a50ca864d72ac9899f97cae",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/beab2163dfa06e217a50ca864d72ac9899f97cae",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/beab2163dfa06e217a50ca864d72ac9899f97cae",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/beab2163dfa06e217a50ca864d72ac9899f97cae/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "337737b76a44c2e5abcd4faaa192036052788f60",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/337737b76a44c2e5abcd4faaa192036052788f60",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/337737b76a44c2e5abcd4faaa192036052788f60"
+            }
+        ]
+    },
+    {
+        "sha": "337737b76a44c2e5abcd4faaa192036052788f60",
+        "node_id": "C_kwDOJDSl2doAKDMzNzczN2I3NmE0NGMyZTVhYmNkNGZhYWExOTIwMzYwNTI3ODhmNjA",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-03-03T20:11:58Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-03-03T20:11:58Z"
+            },
+            "message": "awesome changes",
+            "tree": {
+                "sha": "27ae5d51bef6fb86e7b30f6942a8b2a72d7acd7f",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/27ae5d51bef6fb86e7b30f6942a8b2a72d7acd7f"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/337737b76a44c2e5abcd4faaa192036052788f60",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/337737b76a44c2e5abcd4faaa192036052788f60",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/337737b76a44c2e5abcd4faaa192036052788f60",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/337737b76a44c2e5abcd4faaa192036052788f60/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "8e7cdb3b8cb9ee8a0089f137fabfd6b8ed1e3d77",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/8e7cdb3b8cb9ee8a0089f137fabfd6b8ed1e3d77",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/8e7cdb3b8cb9ee8a0089f137fabfd6b8ed1e3d77"
+            }
+        ]
+    },
+    {
+        "sha": "8e7cdb3b8cb9ee8a0089f137fabfd6b8ed1e3d77",
+        "node_id": "C_kwDOJDSl2doAKDhlN2NkYjNiOGNiOWVlOGEwMDg5ZjEzN2ZhYmZkNmI4ZWQxZTNkNzc",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-03-03T19:31:09Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-03-03T19:31:09Z"
+            },
+            "message": "scraping revised",
+            "tree": {
+                "sha": "a1f8e47445944111fa3b79533c025bdcb369dee1",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/a1f8e47445944111fa3b79533c025bdcb369dee1"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/8e7cdb3b8cb9ee8a0089f137fabfd6b8ed1e3d77",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/8e7cdb3b8cb9ee8a0089f137fabfd6b8ed1e3d77",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/8e7cdb3b8cb9ee8a0089f137fabfd6b8ed1e3d77",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/8e7cdb3b8cb9ee8a0089f137fabfd6b8ed1e3d77/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "fab43d504993e92eae77bdfd12afe6d2616ae006",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/fab43d504993e92eae77bdfd12afe6d2616ae006",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/fab43d504993e92eae77bdfd12afe6d2616ae006"
+            }
+        ]
+    },
+    {
+        "sha": "fab43d504993e92eae77bdfd12afe6d2616ae006",
+        "node_id": "C_kwDOJDSl2doAKGZhYjQzZDUwNDk5M2U5MmVhZTc3YmRmZDEyYWZlNmQyNjE2YWUwMDY",
+        "commit": {
+            "author": {
+                "name": "Vexelior",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-03-03T04:58:19Z"
+            },
+            "committer": {
+                "name": "Vexelior",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-03-03T04:58:19Z"
+            },
+            "message": "cool stuff",
+            "tree": {
+                "sha": "bdc3afec5227a510a27d68a90520f7009181dd64",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/bdc3afec5227a510a27d68a90520f7009181dd64"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/fab43d504993e92eae77bdfd12afe6d2616ae006",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/fab43d504993e92eae77bdfd12afe6d2616ae006",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/fab43d504993e92eae77bdfd12afe6d2616ae006",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/fab43d504993e92eae77bdfd12afe6d2616ae006/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "2aabe248435fbc8304174081e6cf07293cb97b9f",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/2aabe248435fbc8304174081e6cf07293cb97b9f",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/2aabe248435fbc8304174081e6cf07293cb97b9f"
+            }
+        ]
+    },
+    {
+        "sha": "2aabe248435fbc8304174081e6cf07293cb97b9f",
+        "node_id": "C_kwDOJDSl2doAKDJhYWJlMjQ4NDM1ZmJjODMwNDE3NDA4MWU2Y2YwNzI5M2NiOTdiOWY",
+        "commit": {
+            "author": {
+                "name": "Vexelior",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-03-02T23:18:45Z"
+            },
+            "committer": {
+                "name": "Vexelior",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-03-02T23:18:45Z"
+            },
+            "message": "paging for item list",
+            "tree": {
+                "sha": "478bdec46b9028e12fbab5255a5dccbfde7a6fae",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/478bdec46b9028e12fbab5255a5dccbfde7a6fae"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/2aabe248435fbc8304174081e6cf07293cb97b9f",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/2aabe248435fbc8304174081e6cf07293cb97b9f",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/2aabe248435fbc8304174081e6cf07293cb97b9f",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/2aabe248435fbc8304174081e6cf07293cb97b9f/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "93fc65b36a7979fda281a87a471925b63bb03cca",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/93fc65b36a7979fda281a87a471925b63bb03cca",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/93fc65b36a7979fda281a87a471925b63bb03cca"
+            }
+        ]
+    },
+    {
+        "sha": "93fc65b36a7979fda281a87a471925b63bb03cca",
+        "node_id": "C_kwDOJDSl2doAKDkzZmM2NWIzNmE3OTc5ZmRhMjgxYTg3YTQ3MTkyNWI2M2JiMDNjY2E",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-03-01T00:07:33Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-03-01T00:07:33Z"
+            },
+            "message": "good start with pagination",
+            "tree": {
+                "sha": "9507fb6573d928574c0204b1a286801a27dab3b5",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/9507fb6573d928574c0204b1a286801a27dab3b5"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/93fc65b36a7979fda281a87a471925b63bb03cca",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/93fc65b36a7979fda281a87a471925b63bb03cca",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/93fc65b36a7979fda281a87a471925b63bb03cca",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/93fc65b36a7979fda281a87a471925b63bb03cca/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ef6ad048b11baaea30a1e0e167aefa10749336e7",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/ef6ad048b11baaea30a1e0e167aefa10749336e7",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/ef6ad048b11baaea30a1e0e167aefa10749336e7"
+            }
+        ]
+    },
+    {
+        "sha": "ef6ad048b11baaea30a1e0e167aefa10749336e7",
+        "node_id": "C_kwDOJDSl2doAKGVmNmFkMDQ4YjExYmFhZWEzMGExZTBlMTY3YWVmYTEwNzQ5MzM2ZTc",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-02-28T01:12:43Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-02-28T01:12:43Z"
+            },
+            "message": "Create requirements.txt",
+            "tree": {
+                "sha": "5865dfbeebbe73fe0dfaa75fbff9be2d4e68b4c6",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/5865dfbeebbe73fe0dfaa75fbff9be2d4e68b4c6"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/ef6ad048b11baaea30a1e0e167aefa10749336e7",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/ef6ad048b11baaea30a1e0e167aefa10749336e7",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/ef6ad048b11baaea30a1e0e167aefa10749336e7",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/ef6ad048b11baaea30a1e0e167aefa10749336e7/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6d3bde87a9dc8f095fda27110903c618cb5ef619",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/6d3bde87a9dc8f095fda27110903c618cb5ef619",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/6d3bde87a9dc8f095fda27110903c618cb5ef619"
+            }
+        ]
+    },
+    {
+        "sha": "6d3bde87a9dc8f095fda27110903c618cb5ef619",
+        "node_id": "C_kwDOJDSl2doAKDZkM2JkZTg3YTlkYzhmMDk1ZmRhMjcxMTA5MDNjNjE4Y2I1ZWY2MTk",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-02-28T00:44:50Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-02-28T00:44:50Z"
+            },
+            "message": "init",
+            "tree": {
+                "sha": "6981225a6f1241b77aaf5b5513872bb551960f57",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/6981225a6f1241b77aaf5b5513872bb551960f57"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/6d3bde87a9dc8f095fda27110903c618cb5ef619",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/6d3bde87a9dc8f095fda27110903c618cb5ef619",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/6d3bde87a9dc8f095fda27110903c618cb5ef619",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/6d3bde87a9dc8f095fda27110903c618cb5ef619/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "713d8c97f27048c9ae8ef72cb11ef20244213939",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/713d8c97f27048c9ae8ef72cb11ef20244213939",
+                "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/713d8c97f27048c9ae8ef72cb11ef20244213939"
+            }
+        ]
+    },
+    {
+        "sha": "713d8c97f27048c9ae8ef72cb11ef20244213939",
+        "node_id": "C_kwDOJDSl2doAKDcxM2Q4Yzk3ZjI3MDQ4YzlhZThlZjcyY2IxMWVmMjAyNDQyMTM5Mzk",
+        "commit": {
+            "author": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-02-28T00:29:41Z"
+            },
+            "committer": {
+                "name": "Alexander Sanderson",
+                "email": "67873187+Vexelior@users.noreply.github.com",
+                "date": "2023-02-28T00:29:41Z"
+            },
+            "message": "Initial commit",
+            "tree": {
+                "sha": "f67852245e243c4e2c763d877191abb2f70fa496",
+                "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/trees/f67852245e243c4e2c763d877191abb2f70fa496"
+            },
+            "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/git/commits/713d8c97f27048c9ae8ef72cb11ef20244213939",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/713d8c97f27048c9ae8ef72cb11ef20244213939",
+        "html_url": "https://github.com/Vexelior/The-Tech-Academy-Python-Live-Project/commit/713d8c97f27048c9ae8ef72cb11ef20244213939",
+        "comments_url": "https://api.github.com/repos/Vexelior/The-Tech-Academy-Python-Live-Project/commits/713d8c97f27048c9ae8ef72cb11ef20244213939/comments",
+        "author": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Vexelior",
+            "id": 67873187,
+            "node_id": "MDQ6VXNlcjY3ODczMTg3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/67873187?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Vexelior",
+            "html_url": "https://github.com/Vexelior",
+            "followers_url": "https://api.github.com/users/Vexelior/followers",
+            "following_url": "https://api.github.com/users/Vexelior/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Vexelior/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Vexelior/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Vexelior/subscriptions",
+            "organizations_url": "https://api.github.com/users/Vexelior/orgs",
+            "repos_url": "https://api.github.com/users/Vexelior/repos",
+            "events_url": "https://api.github.com/users/Vexelior/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Vexelior/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": []
+    }
+]

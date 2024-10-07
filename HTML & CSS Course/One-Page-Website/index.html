@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+      <meta charset="utf-8">
+      <title>The Bebop Lounge</title>
+      <link rel="stylesheet" href="./CSS/shared.css">"
+      <link rel="stylesheet" href="./CSS/one_page_website.css">
+      <link rel="stylesheet" href="./CSS/animations.css">
+      <link rel="stylesheet" href="./CSS/lightbox.css">
+      <script src="./JS/one_page_website.js"></script>
+    </head>
+    <body>
+        <!--NAV-->
+        <div class="wrap">
+            <div class="menu-container">
+                <ul class="menu">
+                    <a href="#home" id="link"><li>HOME</li></a>
+                    <a href="#gallery"><li>GALLERY</li></a>
+                    <a href="#contact"><li>CONTACT</li></a>
+                    <a href="#login"><li>LOGIN</li></a>
+                </ul>
+            </div>
+        </div>
+        <!--END NAV-->
+
+        <!--HOME-->
+        <div id="home">
+            <div class="container">
+                <div class="text-center">
+                    <span class="head-main">The Bebop Lounge</span>
+                </div>
+            </div>
+        </div>
+        <!--END HOME-->
+
+        <!--GALLERY-->
+        <section id="gallery">
+          <div class="container">
+            <h1>Gallery</h1>
+            <div class="flex-container">
+              
+              <!--PHOTO-CONTAINER 1-->
+              <div class="photo-container">
+                <div class="photo">
+                  <img
+                    src="Images/Thumb/thumbnail_1.png"
+                    alt="Spike"
+                  />
+                  <div onclick="openModal();currentSlide(1)" class="photo-overlay">
+                    <h3 class="white-head">Click to Enlarge</h3>
+                    <p>See you, Space Cowboy</p>
+                  </div>
+                </div>
+              </div>
+              <!--END PHOTO-CONTAINER 1-->
+
+              <!--PHOTO-CONTAINER 2-->
+              <div class="photo-container">
+                <div class="photo">
+                  <img
+                    src="./Images/Thumb/thumbnail_2.png"
+                    alt="Spike"
+                  />
+                  <div onclick="openModal();currentSlide(2)" class="photo-overlay">
+                    <h3 class="white-head">Click to Enlarge</h3>
+                    <p>See you, Space Cowboy</p>
+                  </div>
+                </div>
+              </div>
+              <!--END PHOTO-CONTAINER 2-->
+
+              <!--PHOTO-CONTAINER 3-->
+              <div class="photo-container">
+                <div class="photo">
+                  <img
+                    src="./Images/Thumb/thumbnail_3.png"
+                    alt="Faye"
+                  />
+                  <div onclick="openModal();currentSlide(3)" class="photo-overlay">
+                    <h3 class="white-head">Click to Enlarge</h3>
+                    <p>See you, Space Cowboy</p>
+                  </div>
+                </div>
+              </div>
+              <!--END PHOTO-CONTAINER 3-->
+
+              <!--PHOTO-CONTAINER 4-->
+              <div class="photo-container">
+                <div class="photo">
+                  <img
+                    src="./Images/Thumb/thumbnail_4.png"
+                    alt="Spike"
+                  />
+                  <div onclick="openModal();currentSlide(4)" class="photo-overlay">
+                    <h3 class="white-head">Click to Enlarge</h3>
+                    <p>See you, Space Cowboy</p>
+                  </div>
+                </div>
+              </div>
+              <!--END PHOTO-CONTAINER 4-->
+
+              <!--PHOTO-CONTAINER 5-->
+              <div class="photo-container">
+                <div class="photo">
+                  <img
+                    src="./Images/Thumb/thumbnail_5.png"
+                    alt="Jet"
+                  />
+                  <div onclick="openModal();currentSlide(5)" class="photo-overlay">
+                    <h3 class="white-head">Click to Enlarge</h3>
+                    <p>See you, Space Cowboy</p>
+                  </div>
+                </div>
+              </div>
+              <!--END PHOTO-CONTAINER 5-->
+
+              <!--PHOTO-CONTAINER 6-->
+              <div class="photo-container">
+                <div class="photo">
+                  <img
+                    src="./Images/Thumb/thumbnail_6.png"
+                    alt="Spike"
+                  />
+                  <div onclick="openModal();currentSlide(6)" class="photo-overlay">
+                    <h3 class="white-head">Click to Enlarge</h3>
+                    <p>See you, Space Cowboy</p>
+                  </div>
+                </div>
+              </div>
+              <!--END PHOTO-CONTAINER 6-->
+
+              <!--PHOTO-CONTAINER 7-->
+              <div class="photo-container">
+                <div class="photo">
+                  <img
+                    src="./Images/Thumb/thumbnail_7.png"
+                    alt="Jet"
+                  />
+                  <div onclick="openModal();currentSlide(7)" class="photo-overlay">
+                    <h3 class="white-head">Click to Enlarge</h3>
+                    <p>See you, Space Cowboy</p>
+                  </div>
+                </div>
+              </div>
+              <!--END PHOTO-CONTAINER 7-->
+
+              <!--PHOTO-CONTAINER 8-->
+              <div class="photo-container">
+                <div class="photo">
+                  <img
+                    src="./Images/Thumb/thumbnail_8.png"
+                    alt="Faye"
+                  />
+                  <div onclick="openModal();currentSlide(8)" class="photo-overlay">
+                    <h3 class="white-head">Click to Enlarge</h3>
+                    <p>See you, Space Cowboy</p>
+                  </div>
+                </div>
+              </div>
+              <!--END PHOTO-CONTAINER 8-->
+
+              <!--PHOTO-CONTAINER 9-->
+              <div class="photo-container">
+                <div class="photo">
+                  <img
+                    src="./Images/Thumb/thumbnail_9.png"
+                    alt="Faye"
+                  />
+                  <div onclick="openModal();currentSlide(9)" class="photo-overlay">
+                    <h3 class="white-head">Click to Enlarge</h3>
+                    <p>See you, Space Cowboy</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+              <!--END PHOTO-CONTAINER 9-->
+
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+
+          <div class="mySlides">
+            <div class="numbertext">1 / 9</div>
+            <img src="./Images/Thumb/thumbnail_1.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 9</div>
+            <img src="./Images/Thumb/thumbnail_2.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 9</div>
+            <img src="./Images/Thumb/thumbnail_3.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">4 / 9</div>
+            <img src="./Images/Thumb/thumbnail_4.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 9</div>
+            <img src="./Images/Thumb/thumbnail_5.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">6 / 9</div>
+            <img src="./Images/Thumb/thumbnail_6.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">7 / 9</div>
+            <img src="./Images/Thumb/thumbnail_7.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">8 / 9</div>
+            <img src="./Images/Thumb/thumbnail_8.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">9 / 9</div>
+            <img src="./Images/Thumb/thumbnail_9.png" style="width:100%">
+          </div>
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+      
+
+          <!-- Thumbnail image controls -->
+          <div class="column">
+            <img class="demo" src="./Images/Thumb/thumbnail_1_small.png" onclick="currentSlide(1)" alt="Bebop">
+          </div>
+
+          <div class="column">
+            <img class="demo" src="./Images/Thumb/thumbnail_2_small.png" onclick="currentSlide(2)" alt="Bebop">
+          </div>
+
+          <div class="column">
+            <img class="demo" src="./Images/Thumb/thumbnail_3_small.png" onclick="currentSlide(3)" alt="Bebop">
+          </div>
+
+          <div class="column">
+            <img class="demo" src="./Images/Thumb/thumbnail_4_small.jpg" onclick="currentSlide(4)" alt="Bebop">
+          </div>
+
+          <div class="column">
+            <img class="demo" src="./Images/Thumb/thumbnail_5_small.png" onclick="currentSlide(5)" alt="Bebop">
+          </div>
+
+          <div class="column">
+            <img class="demo" src="./Images/Thumb/thumbnail_6_small.jpg" onclick="currentSlide(6)" alt="Bebop">
+          </div>
+
+          <div class="column">
+            <img class="demo" src="./Images/Thumb/thumbnail_7_small.png" onclick="currentSlide(7)" alt="Bebop">
+          </div>
+          <div class="column">
+            <img class="demo" src="./Images/Thumb/thumbnail_8_small.png" onclick="currentSlide(8)" alt="Bebop">
+          </div>
+
+          <div class="column">
+            <img class="demo" src="./Images/Thumb/thumbnail_9_small.png" onclick="currentSlide(9)" alt="Bebop">
+          </div>
+        </div>
+
+        
+
+        <!--Contact Us-->
+        <section id="contact">
+          <div class="container">
+            <div class="heading-padding">
+              <h1 class="heading-padding">Contact Us</h1>
+                <div class="contact">
+                  <h2><span>Your adventure is just around the corner.</span>
+                    <br/>Reserve your spot today!
+                  </h2>
+                  <p class="sign-up">
+                      Please provide us with your basic contact information.
+                  </p>
+                    <div class="form-rsvp">
+                      <form action="" method="post">
+                        <input class="sign-up" type="text" value="" placeholder="First Name">
+                        <input class="sign-up" type="text" value="" placeholder="Last Name">
+                        <input class="sign-up" type="text" value="" placeholder="Email Address">
+                        <input class="sign-up" type="text" value="" placeholder="Phone Number">
+                        <div class="form-spacer">
+                            <label class="terms">Terms and Conditions</label>
+                        </div>
+                        <div class="submit">
+                            <input type="submit" value="Submit">
+                        </div>
+                      </form>
+                    </div> 
+                  </div>
+                </div>
+            </div>
+        </section>
+        <!--END SIGN UP-->
+
+        <!--Login Popup-->
+        <button class="open-button" onclick="openForm()">Sign In</button>
+            <div class="form-popup" id="login">
+              <form action="" class="form-container">
+                  <h1>Login</h1>
+                  
+                  <label for='email'><b>Email</b></label>
+                  <input type="text" placeholder="Enter Email" name="email" required>
+    
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+    
+                  <button type="submit" class="btn">Login</button>
+                  <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+              </form>
+            </div>
+        
+
+        <!--FOOTER-->
+        <div id="footer">
+            www.thebeboplounge.bpab &nbsp; | &nbsp; &copy; 2021
+        </div>
+        <!--END FOOTER-->
+    </body>
+</html>

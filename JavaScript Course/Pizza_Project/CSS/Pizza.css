@@ -1,0 +1,76 @@
+body {
+  background-color: beige;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(177, 113, 31);
+}
+
+h3 {
+  font-family: "Courier New", Courier, monospace;
+  color: brown;
+}
+
+div {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+}
+
+#menuBG {
+  width: 400px;
+  height: 470px;
+  margin: 10px auto;
+}
+
+#frmMenu {
+  width: 600px;
+  height: 200px;
+}
+
+#totalPrice {
+  width: 200px;
+  height: 190px;
+  margin: 20px auto;
+  float: left;
+}
+
+.left {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.center {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.right {
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+
+#showText {
+  width: 200px;
+  height: 190px;
+  margin: 0px auto;
+  float: left;
+}
+
+#cart {
+  top: 0;margin: 0px auto;
+  margin: 0px auto;
+  width: 400px;
+  height: 40px;
+}
+
+#btnOrder {
+  margin: 10px 0px 0px 100px;
+  width: 100px;
+  height: 40px;
+  display: block;
+  margin: 25px auto;
+}

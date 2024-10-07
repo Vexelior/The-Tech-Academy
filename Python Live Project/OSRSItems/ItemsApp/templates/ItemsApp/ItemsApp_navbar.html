@@ -1,0 +1,56 @@
+<nav class="nav navbar">
+  <li class="nav-item"><a class="nav-link active" href="{% url 'itemsApp_home' %}">Home</a></li>
+  <li class="nav-item"><a class="nav-link" href="{% url 'new_item' %}">Add Item</a></li>
+  <li class="nav-item"><a class="nav-link" href="{% url 'edit_page' %}">Edit Item</a></li>
+  <li class="nav-item"><a class="nav-link" href="{% url 'select_item' %}">Item List</a></li>
+  <li class="nav-item"><a class="nav-link" href="{% url 'scrape' %}">Scrape</a></li>
+  {% if user.is_authenticated %}
+  <div class="dropdown show ml-auto login-welcome">
+    <a class="nav-item dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+      aria-haspopup="true" aria-expanded="false">
+      Hello, {{ user.username }}!
+    </a>
+    <div class="dropdown-menu nav-item" aria-labelledby="dropdownMenuLink">
+      <a class="dropdown-item nav-item" href="{% url 'itemsApp_favorites' %}">My Favorites</a>
+      <a class="dropdown-item nav-item" href="{% url 'itemsApp_logout' %}">Logout</a>
+    </div>
+  </div>
+  {% else %}
+  <div class="dropdown show" style="padding-right: 0px;">
+    <a class="nav-link" href="{% url 'itemsApp_login_modal' %}" data-toggle="modal" data-target="#loginModal">
+      Login
+    </a>
+    <div class="dropdown-menu nav-item" aria-labelledby="dropdownMenuLink">
+      <a class="dropdown-item nav-item" href="{% url 'create_account' %}">Register</a>
+    </div>
+  </div>
+  <li class="nav-item">
+  </li>
+  {% endif %}
+</nav>
+<style>
+  .dropdown-menu {
+    background: black;
+    font-size: 16px;
+  }
+
+  .dropdown-menu a:hover {
+    background: black;
+    opacity: 0.8;
+    color: #90c040;
+  }
+</style>
+
+<script>
+  $(".dropdown").hover(
+    function () {
+      $('.dropdown-menu', this).stop(true, true).fadeIn("fast");
+      $(this).toggleClass('open');
+      $('b', this).toggleClass("caret caret-up");
+    },
+    function () {
+      $('.dropdown-menu', this).stop(true, true).fadeOut("fast");
+      $(this).toggleClass('open');
+      $('b', this).toggleClass("caret caret-up");
+    });
+</script>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>My Portfolio: Alex Sanderson</title>
+        <link rel="stylesheet" type="text/css" href="./CSS/portfolio.css">
+    </head>
+
+    
+
+    <!--Body-->
+    <body class="Background fade-out" id="Home">
+        <script>
+            document.body.classList.add('fade-out');
+            window.addEventListener('DOMContentLoaded', () => {
+                document.body.classList.remove('fade-out');
+            });
+        </script>
+        
+        
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+       
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Alex Sanderson</h1>
+                    <strong>
+                    <p class="fade-out" style="font-size: 1vw">
+                    <br>Welcome to my portfolio website. My name is Alexander Sanderson. On it, I will tell you about my background and experience as a software developer.
+                    <br>
+                    <br>Thank you for coming by and enjoy the rest of your day! 
+                    </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="./img/programming.gif" alt="Computer">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                    <p>
+                    Since I was a child technology has always been of huge interest to me. Whether it was the newest console, telephone, and most especially the newest hardware for PC to be launched. 
+                    Technology has always been a passion of mine and it has applied to my daily life. I thrive in putting my all into my work and then some. Please, feel free to contact me. I am always looking for new opportunities and knowledge to learn and share.  
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
+                    <br>
+                    <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                    </p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                    <a href="https://github.com/Vexelior" target="_blank"><img src="./img/github_logo.jpg" alt="GitHub Logo"></a>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <img src="./img/me.jpg" alt="Portfolio Picture">
+            </div>
+        </div>
+
+        
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            
+            
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="./img/contact me.gif" alt="Contact_Image">
+            </div>
+            
+            
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form name="myForm" action="" onsubmit="return validateForm()" method="POST" > <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" name='Name' placeholder="Enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Enter your email here">
+                        <label>Phone:</label>
+                        <input type="text" id="Phone Number" name="Phone" placeholder="Enter your phone number here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p>All Rights Reserved. &nbsp; Alexander Sanderson &copy; </p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>

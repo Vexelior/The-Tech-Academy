@@ -1,0 +1,31 @@
+{% for message in messages %}
+<div class="container-fluid p-0" id="alerts">
+  <div class="alert {{ message.tags }} alert-dismissible" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="True">&times;</span>
+    </button>
+    {{ message }}
+  </div>
+</div>
+{% endfor %}
+
+<script>
+  $(document).ready(function () {
+    $(".alert").fadeTo(2000, 500).slideUp(500, function () {
+      $(".alert").slideUp(1000);
+    });
+
+    var alerts = document.getElementById("alerts");
+    if (alerts == null) {
+      return;
+    } else {
+      alerts.style.width = "100%";
+      alerts.style.position = "fixed";
+      alerts.style.top = "0";
+      alerts.style.zIndex = "1000";
+      alerts.style.margin = "0";
+      alerts.style.left = "0";
+      alerts.style.textAlign = "center";
+    }
+  });
+</script>

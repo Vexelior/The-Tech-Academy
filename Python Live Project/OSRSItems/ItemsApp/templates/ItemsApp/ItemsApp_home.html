@@ -1,0 +1,71 @@
+{% extends 'ItemsApp/ItemsApp_base.html' %}
+
+{% load static %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="item_panel">
+    <h2 class="mb-2">
+        <u>Welcome to the OSRS Database!</u>
+    </h2>
+    <div class="containter text-justify">
+        <div class="row">
+            <div class="col" style="padding: 30px; font-size: 18px;">
+                <p class="item_text">
+                    The purpose of this page is to allow players to submit the stats of combat items that exist within
+                    the world
+                    of Gielinor.
+                </p>
+                <p class="item_text">
+                    In OldSchool RuneScape, there are three different types of combat styles. Melee, Range, and Magic.
+                    For each
+                    of these styles, there are a plethora of different weapons.
+                </p>
+                <p class="item_text">
+                    All weapons have equipment stats, attack bonuses and defence bonuses in stab, slash, and crush melee
+                    combat,
+                    Ranged combat and Magic combat.
+                    Each also has a melee strength, Ranged strength, and Magic strength increasing maximum damage with
+                    that
+                    damage type and Prayer bonus that reduces the rate at which prayers drain points.
+                    Weapons also have an attack speed, which is the rate at which it attacks and an attack range. Melee
+                    weapons,
+                    except for halberds, all have 1 attack range. Ranged and Magic weapons vary, however most magic
+                    weapons cast
+                    spells from 10 tiles away.
+                </p>
+                <p class="item_text">
+                    Some weapons also have a special attack, which is a unique attack that can be used. Special attacks
+                    vary in
+                    effect, but most are either a damage boost or a special effect.
+                    Special attacks can be used by navigating to the special attack bar and clicking it.
+                </p>
+                <p class="item_text">
+                    This site allows players to submit the stats of combat items that exist within the world of
+                    Gielinor.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container text-justify">
+        <h1 class="text-center" style="color: green;"><u>Development</u></h1>
+        {% if success %}
+        {% for sha, commit in commit_data.items %}
+        <div class="row mb-2">
+            <div class="col">
+                <div class="text-center" style="border: 1px dotted black; width: 100%; padding: 20px; padding-bottom: 0px;">
+                    <h3 class="d-none">{{ sha }}</h3>
+                    <h5 class="muted">{{ commit.date }}</h5>
+                    <p><b><u>Message:</u></b> {{ commit.message }}</p>
+                    <a href="{{ commit.link }}" target="_blank">Click here</a></p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        {% else %}
+        <h1>No Development Data</h1>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,22 @@
+table {
+	border: 1px solid silver;
+	font-family: Arial;
+}
+td:hover {
+	background-color: yellow;
+	color: black;
+}
+td, th {
+	background-color: black;
+	color: cornsilk;
+}
+tr, td {
+	background-color: darkgreen;
+	color: white;
+}
+td {
+	text-align: center;
+}
+td {
+	color: blue;
+}

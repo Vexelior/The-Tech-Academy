@@ -1,0 +1,93 @@
+{% extends 'ItemsApp/ItemsApp_base.html' %}
+
+{% block title %}My Favorites{% endblock %}
+
+{% block content %}
+<div class="item_panel">
+    <h2><u>Favorites</u></h2>
+    <table class="table table-dark" id="myTable">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% if favorites %}
+            {% for item in item_list %}
+            <tr>
+                <td>{{ item.id }}</td>
+                <td><a href="{% url 'item_details' item.id %}" id="name">{{ item.name }}</a></td>
+                <td>
+                    <input type="hidden" name="item_id" value="{{ item.id }}">
+                    <button class="btn btn-danger" value="{{ item.id }}" title="Remove from favorites"><i
+                            class="fa fa-trash"></i></button>
+                </td>
+            </tr>
+            {% endfor %}
+            {% else %}
+            <tr>
+                <td colspan="5">You have no favorite items.</td>
+            </tr>
+            {% endif %}
+        </tbody>
+    </table>
+</div>
+
+<script type="text/javascript">
+    var modal = `
+                        <div class="modal fade" id="deleteItemModal" tabindex="-1" role="dialog" aria-labelledby="deleteItemModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="deleteItemModalLabel">Delete Item</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Are you sure you want to delete this item?
+                                    </div>
+                                    <div class="modal-footer">
+                                        <input type="hidden" id="item_id" value="">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="submit" id="delete_button" class="btn btn-danger">Delete</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+    $('body').append(modal);
+
+    $('#myTable').on('click', '.btn-danger', function () {
+        $('#item_id').val($(this).val());
+        $('#deleteItemModal').modal('show');
+        $('#deleteItemModal').css('padding-right', '0px');
+    });
+
+    $('#delete_button').on('click', function () {
+        var item_id = $('#item_id').val();
+        var buttonWidth = $(this).css('width');
+        var buttonHeight = $(this).css('height');
+
+        $(this).prop('disabled', true);
+        $(this).html('<i class="fa fa-spinner fa-spin"></i>');
+        $(this).css('width', buttonWidth);
+        $(this).css('height', buttonHeight);
+
+        $.ajax({
+            url: item_id + '/delete/',
+            success: function () {
+                window.location.href = window.location.href;
+            },
+            error: function (error) {
+                alert('Error removing item!');
+                $(this).prop('disabled', false);
+                $(this).html('Delete');
+                $(this).css('width', buttonWidth);
+                $(this).css('height', buttonHeight);
+            }
+        });
+    });
+</script>
+{% endblock %}

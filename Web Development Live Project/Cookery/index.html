@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Cookery</title>
+  <!--FAVICON-->
+  <link rel="icon" href="./static/favicon.png" type="image/x-icon" />
+  <!--BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!--FONTAWSOME-->
+  <script src="https://kit.fontawesome.com/c0319300c2.js" crossorigin="anonymous"></script>
+  <!--CUSTOM STYLES-->
+  <link href="./static/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <h1>Cookery</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Food
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">All Food</a></li>
+              <li><a class="dropdown-item" href="#">Healthy</a></li>
+              <li><a class="dropdown-item" href="#">Featured</a></li>
+              <li><a class="dropdown-item" href="#">Vegan</a></li>
+              <li><a class="dropdown-item" href="#">Desserts</a></li>
+              <li><a class="dropdown-item" href="#">Quick</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Drinks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Featured</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Stories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--NAVBAR END-->
+
+  <!--HERO-->
+  <div class="hero-container">
+    <div class="row">
+      <div class="col">
+        <div class="hero-inner-container text-justify">
+          <p class="hero-header">Simple Recipes to save you time and money</p>
+          <br />
+          <p class="hero-text">Satisfy your cravings with our wide selection of simple and fast recipes.</p>
+        </div>
+      </div>
+      <div class="col">
+        <img class="img-fluid w-100" src="./images/salmon-bowl.jpg" alt="hero-image" />
+      </div>
+    </div>
+    <!--SEARCH BAR-->
+    <div class="search-container">
+      <div class="search-body">
+        <input type="text" placeholder="Search by cuisine, meat type, drink..." name="search"
+          class="justify-content-start" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <span>|</span>
+        <button class="btn">All Food</button>
+        <button class="btn">All Drinks</button>
+        <button class="btn">Featured</button>
+        <button class="btn">Healthy</button>
+        <button class="btn">Vegan</button>
+        <button class="btn">Quick</button>
+      </div>
+    </div>
+    <!--SEARCH BAR END-->
+  </div>
+  <!--HERO END-->
+
+  <!--FEATURED-->
+  <div class="featured">
+    <h1 class="featured-header">Featured</h1>
+    <div class="container">
+      <div class="card">
+        <div class="row">
+          <div class="col">
+            <img class="img-fluid" src="./images/vegan-ramen.jpg" alt="featured-1" />
+          </div>
+          <div class="col">
+            <div class="card-body">
+              <h5 class="card-title">Vegan Ramen</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <button href="#" class="btn" id="recipeModalButton">View Recipe</button>
+            </div>
+            <div class="card-footer">
+              <div class="card-icon justify-content-end text-muted">
+                <div class="card-icon-heart">
+                  <i class="fa-solid fa-heart"></i>
+                  <span class="heart-count">0</span>
+                  </span></i>
+                </div>
+                <div class="card-icon-message">
+                  <i class="fa-solid fa-message" id="commentModalButton"></i>
+                  <span class="message-count">0</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FEATURED END-->
+
+  <!--COMMENT MODAL-->
+  <div class="comment-modal">
+    <div class="modal fade" id="commentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Leave a comment!</h5>
+            <i class="fa-solid fa-xmark close" data-dismiss="modal" aria-label="Close"></i>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control comment-data" id="name" placeholder="Enter Your Name...">
+              </div>
+              <div class="form-group">
+                <label for="rating" class="form-label">Rating</label>
+                <div class="rating">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="comment">Comment</label>
+                <textarea class="form-control comment-data" id="comment" rows="5"
+                  placeholder="Write comment..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary comment-button">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--COMMENT MODAL END-->
+
+  <!--VIEW RECIPE MODAL-->
+  <div class="recipe-modal">
+    <div class="modal fade" id="recipeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <i class="fa-solid fa-xmark close" data-dismiss="modal" aria-label="Close"></i>
+          </div>
+          <h5 class="modal-title">Vegan Ramen</h5>
+          <div class="recipe-level-data">
+            <div class="modal-body">
+              <div class="prep-time">
+                PREP TIME: 20 MINUTES
+              </div>
+              <div class="level">
+                LEVEL: INTERMEDIATE
+              </div>
+              <br />
+              <div class="ingredients-title">
+                INGREDIENTS:
+              </div>
+              <div class="container instructions">
+                <div class="row">
+                  <div class="col">
+                    <div class="ingredients-list">
+                      <p>2 eggs</p>
+                      <p>2 carrots</p>
+                      <p>2 sprigs of cilantro</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="ingredients-list">
+                      <p>vegetable miso</p>
+                      <p>1lb tofu</p>
+                      <p>16oz favorite ramen or pho noodles</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row step1">
+                  <p><b>STEP ONE:</b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis veritatis ipsam
+                    dolorum iste itaque quas dolore inventore assumenda quos? Fuga harum vero vitae. Delectus
+                    necessitatibus quia veritatis! Consequuntur, itaque distinctio.</p>
+                </div>
+                <div class="row step2">
+                  <p><b>STEP TWO:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ipsam, sunt ea
+                    veritatis aspernatur odio in odit? Fuga praesentium incidunt eligendi quas sit vero necessitatibus
+                    deleniti adipisci, ut, maxime accusantium!</p>
+                </div>
+                <div class="row">
+                  <div class="modal-footer button-group text-center col">
+                    <button type="button" class="btn btn-primary"><i class="fa-solid fa-envelope"></i> Email
+                      Recipe</button>
+                    <button type="button" class="btn btn-primary"><i class="fa-solid fa-print"></i> Print
+                      Recipe</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!---->
+      </div>
+    </div>
+  </div>
+  <!--VIEW RECIPE MODAL END-->
+
+  <!--JQUERY-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!--CUSTOM JAVASCRIPT-->
+  <script src="./static/javascript.js" type="text/javascript"></script>
+</body>
+
+</html>

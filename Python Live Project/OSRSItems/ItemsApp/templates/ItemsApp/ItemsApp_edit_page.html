@@ -1,0 +1,30 @@
+{% extends "ItemsApp/ItemsApp_base.html" %}
+
+{% block title %}Edit List{% endblock %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="item_panel">
+    <form name="itemForm" method="POST" action="">
+        {% csrf_token %}
+        <label for="menu_id">Select an item:</label>
+        <br>
+        <div class="container">
+            <select class="custom-select" id="menu_id" name="menu"
+                onChange="top.location.href=this.options[this.selectedIndex].value;">
+                <option value="">---</option>
+                {% for item in items %}
+                <option value="../{{ item.pk }}/edit_form/">{{ item.name }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="container mt-2">
+            <div class="button-group">
+                <a href="{% url 'new_item' %}"><button type="button" class="btn btn-primary">Create Item</button></a>
+                <a href="{% url 'itemsApp_home' %}"><button type="button" class="btn btn-secondary">Cancel</button></a>
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}

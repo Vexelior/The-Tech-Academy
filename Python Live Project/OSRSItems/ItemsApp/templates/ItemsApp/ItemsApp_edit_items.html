@@ -1,0 +1,109 @@
+{% extends 'ItemsApp/ItemsApp_base.html' %}
+
+{% block title %}Edit - {{ form.name.value }}{% endblock %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="item_panel">
+    <form name="itemForm" method="POST" action="../edit_form/">
+        {% csrf_token %}
+        <h2 class="item_panel_title mt-2">
+            <u>Generic Info</u>
+        </h2>
+        <div class="row d-flex justify-content-center" style="padding: 10px;">
+            <div class="col-md">
+                {{ form.name|as_crispy_field }}
+            </div>
+        </div>
+        <div class="row" style="padding: 10px; margin-top: -20px;">
+            <div class="col-md">
+                {{ form.type|as_crispy_field }}
+            </div>
+            <div class="col-md-6">
+                {{ form.slot|as_crispy_field }}
+            </div>
+            <div class="col-md-6">
+                {{ form.range|as_crispy_field }}
+            </div>
+            <div class="col-md-6">
+                {{ form.speed|as_crispy_field }}
+            </div>
+        </div>
+        <div class="d-flex justify-content-center" style="padding: 10px; margin-top: -20px;">
+            <div class="col-md-6">
+                {{ form.image|as_crispy_field }}
+            </div>
+        </div>
+        <h2 class="item_panel_title">
+            <u>Attack Stats</u>
+        </h2>
+        <div class="row" style="padding: 10px;">
+            <div class="col-md-6">
+                {{ form.atk_stab|as_crispy_field }}
+            </div>
+            <div class="col-md-6">
+                {{ form.atk_slash|as_crispy_field }}
+            </div>
+            <div class="col-md-6">
+                {{ form.atk_crush|as_crispy_field }}
+            </div>
+            <div class="col-md-6">
+                {{ form.atk_magic|as_crispy_field }}
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center" style="padding: 10px; margin-top: -20px;">
+            <div class="col-md-6">
+                {{ form.atk_range|as_crispy_field }}
+            </div>
+        </div>
+        <h2 class="item_panel_title">
+            <u>Defence Stats</u>
+        </h2>
+        <div class="row" style="padding: 10px;">
+            <div class="col-md-6">
+                {{ form.def_stab|as_crispy_field }}
+            </div>
+            <div class="col-md-6">
+                {{ form.def_slash|as_crispy_field }}
+            </div>
+            <div class="col-md-6">
+                {{ form.def_crush|as_crispy_field }}
+            </div>
+            <div class="col-md-6">
+                {{ form.def_magic|as_crispy_field }}
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center" style="padding: 10px; margin-top: -20px;">
+            <div class="col-md-6">
+                {{ form.def_range|as_crispy_field }}
+            </div>
+        </div>
+        <h2 class="item_panel_title">
+            <u>Bonus Stats</u>
+        </h2>
+        <div class="row" style="padding: 10px;">
+            <div class="col-md-6">
+                {{ form.bns_strength|as_crispy_field }}
+            </div>
+            <div class="col-md-6">
+                {{ form.bns_range|as_crispy_field }}
+            </div>
+            <div class="col-md-6">
+                {{ form.bns_magic|as_crispy_field }}
+            </div>
+            <div class="col-md-6">
+                {{ form.bns_prayer|as_crispy_field }}
+            </div>
+        </div>
+        <div class="button-group d-flex justify-content-center">
+            <button type="submit" class="btn btn-success mb-2" style="margin-right:5px;">
+                Submit
+            </button>
+            <a href="{% url 'itemsApp_home' %}" style="margin-right:5px;">
+                <button class="btn btn-warning" type="button">Cancel</button>
+            </a>
+        </div>
+    </form>
+</div>
+{% endblock %}
