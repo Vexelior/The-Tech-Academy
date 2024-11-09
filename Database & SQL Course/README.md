@@ -1,2 +1,1 @@
-# The Tech Academy Database and SQL Course
- 
+# Database and SQL Course
