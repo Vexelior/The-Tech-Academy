@@ -25,8 +25,8 @@ This repository contains all of the assignements &amp; projects while attending 
 - [Bebop Lounge](HTML%20&amp;%20CSS%20Course/One-Page-Website/) - A simple HTML/CSS project that showcases a fictional jazz club.
 - [Tic Tac Toe](JavaScript%20Course/TicTacToe/) - A JavaScript project that allows users to select pizza toppings and calculates the total cost.
 - [Car Insurance](C%23%20%26%20.NET%20Course/CarInsurance/) - A C# project that calculates car insurance quotes based on user input.
-- [Library Management System](Database%20%amp;%20SQL%20Course\Library.sql) - A SQL project that creates a database for a library management system.
-- [Recipe Webpage](Web%20Development%20Live%20Project\Cookery) - A simple HTML/CSS project that showcases a recipe website template.
+- [Library Management System](Database%20%26%20SQL%20Course/Library.sql) - A SQL project that creates a database for a library management system.
+- [Recipe Webpage](Web%20Development%20Live%20Project/Cookery) - A simple HTML/CSS project that showcases a recipe website template.
 
 # Closing
 Thank you for visiting my repository. If you have any questions or would like to connect, please feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/asanderson94/). I look forward to connecting with you!
