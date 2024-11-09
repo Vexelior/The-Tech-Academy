@@ -19,16 +19,15 @@ This repository contains all of the assignements &amp; projects while attending 
 - Git
 - GitHub
 - Visual Studio
-- SQL Server Management Studio
 - Visual Studio Code
-- Azure DevOps
-- Azure
+- SQL Server Management Studio
 
 # Assignments
-TBD
-
-# Projects
-TBD
+- [Bebop Lounge]("HTML & CSS Course/One-Page-Website") - A simple HTML/CSS project that showcases a fictional jazz club.
+- [Tic Tac Toe]("JavaScript Course/TicTacToe/") - A JavaScript project that allows users to select pizza toppings and calculates the total cost.
+- [Car Insurance]("C# & .NET Course/CarInsurance/") - A C# project that calculates car insurance quotes based on user input.
+- [Library Management System]("Database & SQL Course\Library.sql") - A SQL project that creates a database for a library management system.
+- [Recipe Webpage]("Web Development Live Project\Cookery") - A simple HTML/CSS project that showcases a recipe website template.
 
 # Closing
 Thank you for visiting my repository. If you have any questions or would like to connect, please feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/asanderson94/). I look forward to connecting with you!
